@@ -1,0 +1,26 @@
+{
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
+    "license": "https://spdx.org/licenses/nil",
+    "codeRepository": "git+https://github.com/janelia-kicad/trinamic_wiring.git",
+    "dateCreated": "2022-11-02",
+    "dateModified": "2022-11-02",
+    "name": "trinamic_wiring",
+    "version": "0.1.0",
+    "description": "nil",
+    "programmingLanguage": [
+        "KiCad"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Peter",
+            "familyName": "Polidoro",
+            "email": "peter@polidoro.io",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Howard Hughes Medical Institute"
+            }
+        }
+    ]
+}
