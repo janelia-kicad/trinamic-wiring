@@ -10,6 +10,8 @@
    "make"
    "bash"
    "git"
+   "imagemagick"
+   "graphicsmagick"
    "emacs"
    "emacs-org"
    "emacs-ox-gfm"))

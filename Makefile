@@ -21,3 +21,6 @@ add:
 
 clean:
 	$(GUIX-CONTAINER) -- sh -c "git clean -xdf"
+
+images-from-pdfs:
+	rm ./trinamic_wiring/*.png && $(GUIX-CONTAINER) -- sh -c "convert ./trinamic_wiring/*.pdf -font Liberation-Sans -density 300 -depth 8 -quality 85 ./trinamic_wiring/image%02d.png"

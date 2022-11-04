@@ -294,6 +294,8 @@ Any redistribution of the Designs must contain or reference these terms.
    "make"
    "bash"
    "git"
+   "imagemagick"
+   "graphicsmagick"
    "emacs"
    "emacs-org"
    "emacs-ox-gfm"))
@@ -323,6 +325,9 @@ add:
 
 clean:
 	$(GUIX-CONTAINER) -- sh -c "git clean -xdf"
+
+images-from-pdfs:
+	rm ./<<name>>/*.png && $(GUIX-CONTAINER) -- sh -c "convert ./<<name>>/*.pdf -font Liberation-Sans -density 300 -depth 8 -quality 85 ./<<name>>/image%02d.png"
 #+END_SRC
 
 #+BEGIN_SRC scheme :tangle .init.el :exports none :noweb yes
