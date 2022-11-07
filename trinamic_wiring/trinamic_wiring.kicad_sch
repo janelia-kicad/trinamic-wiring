@@ -31,16 +31,29 @@
     (path "/" (page "1"))
     (path "/c8eda2b5-ab13-4033-82d9-875c9fcaf884" (page "2"))
     (path "/c8eda2b5-ab13-4033-82d9-875c9fcaf884/2a1dc514-7df6-499f-97d3-aee7548517ec" (page "3"))
+    (path "/c8eda2b5-ab13-4033-82d9-875c9fcaf884/eea4dd1f-0426-4b34-8e32-825d6eb25fc5" (page "4"))
   )
 
   (symbol_instances
+    (path "/c8eda2b5-ab13-4033-82d9-875c9fcaf884/eea4dd1f-0426-4b34-8e32-825d6eb25fc5/a711b311-3cbc-4629-87fb-1dca1d30fb71"
+      (reference "ARDUINO1") (unit 1) (value "ARDUINO_MEGA") (footprint "footprints:ARDUINO_MEGA_SHIELD")
+    )
+    (path "/c8eda2b5-ab13-4033-82d9-875c9fcaf884/eea4dd1f-0426-4b34-8e32-825d6eb25fc5/0576b776-2dc5-4fae-8347-337d4ae79d9d"
+      (reference "M1") (unit 1) (value "Stepper_Motor_QSH2818-32-07-006") (footprint "")
+    )
     (path "/c8eda2b5-ab13-4033-82d9-875c9fcaf884/2a1dc514-7df6-499f-97d3-aee7548517ec/ee752682-5ed8-4d52-aa3b-e20cd1dbbab2"
       (reference "M1") (unit 1) (value "Stepper_Motor_QSH2818-32-07-006") (footprint "")
+    )
+    (path "/c8eda2b5-ab13-4033-82d9-875c9fcaf884/eea4dd1f-0426-4b34-8e32-825d6eb25fc5/14a44266-94b5-4542-8922-6badec1f5e83"
+      (reference "R1") (unit 1) (value "1k") (footprint "footprints:SM0805")
     )
     (path "/c8eda2b5-ab13-4033-82d9-875c9fcaf884/2a1dc514-7df6-499f-97d3-aee7548517ec/890e8139-634b-44f4-b73c-a62392dae63e"
       (reference "R1") (unit 1) (value "1k") (footprint "footprints:SM0805")
     )
     (path "/c8eda2b5-ab13-4033-82d9-875c9fcaf884/2a1dc514-7df6-499f-97d3-aee7548517ec/020289be-79e9-44c6-beb7-1483aa88578a"
+      (reference "SS1") (unit 1) (value "STEPSTICK_TMC2209") (footprint "footprints:STEPSTICK_TMC2209")
+    )
+    (path "/c8eda2b5-ab13-4033-82d9-875c9fcaf884/eea4dd1f-0426-4b34-8e32-825d6eb25fc5/31e4d61f-ad25-4150-884d-48543a768340"
       (reference "SS1") (unit 1) (value "STEPSTICK_TMC2209") (footprint "footprints:STEPSTICK_TMC2209")
     )
     (path "/c8eda2b5-ab13-4033-82d9-875c9fcaf884/2a1dc514-7df6-499f-97d3-aee7548517ec/6b7fd21d-1399-4b05-9e50-c8e9ffbfc291"
