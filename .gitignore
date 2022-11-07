@@ -4,6 +4,7 @@
 # Output files
 *.pdf
 *.png
+*.svg
 
 # Temporary files
 *.000
