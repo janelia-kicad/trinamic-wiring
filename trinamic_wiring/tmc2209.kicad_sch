@@ -20,6 +20,18 @@
     )
   )
 
+  (sheet (at 100.33 66.04) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid b04a05cb-1dc0-4c9d-9f8b-3321d84acd07)
+    (property "Sheet name" "TMC2209_FEATHER_NRF52" (id 0) (at 100.33 65.3284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "tmc2209_feather_nrf52.kicad_sch" (id 1) (at 100.33 70.4346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet (at 100.33 50.8) (size 12.7 3.81) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
