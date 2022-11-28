@@ -40,7 +40,7 @@
       (reference "ARDUINO1") (unit 1) (value "ARDUINO_MEGA") (footprint "footprints:ARDUINO_MEGA_SHIELD")
     )
     (path "/c8eda2b5-ab13-4033-82d9-875c9fcaf884/b04a05cb-1dc0-4c9d-9f8b-3321d84acd07/92933e8f-046c-49b3-8aad-990d41a8a407"
-      (reference "FEATHER?") (unit 1) (value "FEATHER_nRF52") (footprint "Janelia:FEATHERWING_PIN_RECEPTACLES")
+      (reference "FEATHER1") (unit 1) (value "FEATHER_nRF52") (footprint "Janelia:FEATHERWING_PIN_RECEPTACLES")
     )
     (path "/c8eda2b5-ab13-4033-82d9-875c9fcaf884/eea4dd1f-0426-4b34-8e32-825d6eb25fc5/0576b776-2dc5-4fae-8347-337d4ae79d9d"
       (reference "M1") (unit 1) (value "Stepper_Motor_QSH2818-32-07-006") (footprint "")

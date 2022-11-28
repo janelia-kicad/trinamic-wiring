@@ -926,7 +926,7 @@
   (symbol (lib_id "Janelia:FEATHERWING_nRF52_PIN_RECEPTACLES") (at 74.93 100.33 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 92933e8f-046c-49b3-8aad-990d41a8a407)
-    (property "Reference" "FEATHER?" (id 0) (at 74.93 74.93 0))
+    (property "Reference" "FEATHER1" (id 0) (at 74.93 74.93 0))
     (property "Value" "FEATHER_nRF52" (id 1) (at 74.93 127 0))
     (property "Footprint" "Janelia:FEATHERWING_PIN_RECEPTACLES" (id 2) (at 74.93 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
