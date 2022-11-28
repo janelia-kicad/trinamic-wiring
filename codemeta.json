@@ -4,9 +4,9 @@
     "license": "https://spdx.org/licenses/Janelia Research Campus Open-Source Hardware",
     "codeRepository": "git+https://github.com/janelia-kicad/trinamic_wiring.git",
     "dateCreated": "2022-11-02",
-    "dateModified": "2022-11-02",
+    "dateModified": "2022-11-28",
     "name": "trinamic_wiring",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "Wiring documentation for various Trinamic devices and ICs.",
     "programmingLanguage": [
         "KiCad"

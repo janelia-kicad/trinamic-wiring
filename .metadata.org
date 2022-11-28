@@ -1,5 +1,5 @@
 #+EXPORT_FILE_NAME: README.md
-#+OPTIONS: toc:nil |:t ^:nil tags:nil
+#+OPTIONS: toc:1 |:t ^:nil tags:nil
 
 #+NAME: name
 #+BEGIN_SRC text :exports none :noweb yes
@@ -8,12 +8,12 @@ trinamic_wiring
 
 #+NAME: version
 #+BEGIN_SRC text :exports none :noweb yes
-0.1.0
+0.2.0
 #+END_SRC
 
 #+NAME: release-month-day
 #+BEGIN_SRC text :exports none :noweb yes
-11-02
+11-28
 #+END_SRC
 
 #+NAME: release-year
@@ -56,19 +56,29 @@ LICENSE
 trinamic_wiring
 #+END_SRC
 
-#+NAME: guix-name
+#+NAME: repository-organization
 #+BEGIN_SRC text :exports none :noweb yes
-nil
+janelia-kicad
+#+END_SRC
+
+#+NAME: forge
+#+BEGIN_SRC text :exports none :noweb yes
+github.com
 #+END_SRC
 
 #+NAME: repository-url
 #+BEGIN_SRC text :exports none :noweb yes
-https://github.com/janelia-kicad/<<repository-name>>
+https://<<forge>>/<<repository-organization>>/<<repository-name>>
 #+END_SRC
 
 #+NAME: code-repository
 #+BEGIN_SRC text :exports none :noweb yes
 git+<<repository-url>>.git
+#+END_SRC
+
+#+NAME: guix-name
+#+BEGIN_SRC text :exports none :noweb yes
+nil
 #+END_SRC
 
 #+NAME: author-given-name
@@ -122,10 +132,8 @@ nil
 #+END_SRC
 
 #+BEGIN_EXAMPLE
-<!---
-This file is generated automatically from .metadata.org
-File edits may be overwritten!
---->
+<!-- This file is generated automatically from .metadata.org -->
+<!-- File edits may be overwritten! -->
 #+END_EXAMPLE
 
 * About
@@ -143,10 +151,6 @@ File edits may be overwritten!
 - References:
   - <<references>>
 #+END_SRC
-
-* Wiring
-
-
 
 * Development
 
@@ -273,7 +277,7 @@ Any redistribution of the Designs must contain or reference these terms.
         (url "https://git.savannah.gnu.org/git/guix.git")
         (branch "master")
         (commit
-          "8e54584d4448d37ddf8ae995bb545a181ba2493c")
+          "2c9635cb47b0f52de635e93ebd137f1f7191c5fd")
         (introduction
           (make-channel-introduction
             "9edb3f66fd807b096b48283debdcddccfea34bad"
@@ -310,6 +314,12 @@ upload: metadata package twine add clean
 GUIX-SHELL = guix time-machine -C .channels.scm -- shell -m .manifest.scm
 GUIX-CONTAINER = $(GUIX-SHELL) --container
 GUIX-CONTAINER-GUI = $(GUIX-CONTAINER) -E "^DISPLAY$$" -E "^XAUTHORITY$$" --expose="$$XAUTHORITY" --expose=/tmp/.X11-unix/ --expose=$$HOME/.Xauthority --expose=/etc/machine-id
+
+shell:
+	$(GUIX-SHELL)
+
+container:
+	$(GUIX-CONTAINER)
 
 metadata-edits:
 	$(GUIX-CONTAINER-GUI) -- sh -c "emacs -q --no-site-file --no-site-lisp --no-splash -l .init.el --file .metadata.org"
