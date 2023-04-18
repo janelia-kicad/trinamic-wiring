@@ -1,4 +1,4 @@
-(kicad_sch (version 20211123) (generator eeschema)
+(kicad_sch (version 20230121) (generator eeschema)
 
   (uuid e4144788-6304-493f-818e-5d881d3b7418)
 
@@ -6,8 +6,8 @@
 
   (title_block
     (title "Trinamic Wiring")
-    (date "2022-11-02")
-    (rev "0.1")
+    (date "2023-04-18")
+    (rev "0.3")
     (company "Janelia Research Campus")
   )
 
@@ -16,61 +16,23 @@
 
 
   (sheet (at 120.65 34.29) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid c8eda2b5-ab13-4033-82d9-875c9fcaf884)
-    (property "Sheet name" "TMC2209" (id 0) (at 120.65 33.5784 0)
+    (property "Sheetname" "TMC2209" (at 120.65 33.5784 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "tmc2209.kicad_sch" (id 1) (at 120.65 38.6846 0)
+    (property "Sheetfile" "tmc2209.kicad_sch" (at 120.65 38.6846 0)
       (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "trinamic_wiring"
+        (path "/e4144788-6304-493f-818e-5d881d3b7418" (page "2"))
+      )
     )
   )
 
   (sheet_instances
     (path "/" (page "1"))
-    (path "/c8eda2b5-ab13-4033-82d9-875c9fcaf884" (page "2"))
-    (path "/c8eda2b5-ab13-4033-82d9-875c9fcaf884/2a1dc514-7df6-499f-97d3-aee7548517ec" (page "3"))
-    (path "/c8eda2b5-ab13-4033-82d9-875c9fcaf884/eea4dd1f-0426-4b34-8e32-825d6eb25fc5" (page "4"))
-    (path "/c8eda2b5-ab13-4033-82d9-875c9fcaf884/b04a05cb-1dc0-4c9d-9f8b-3321d84acd07" (page "5"))
-  )
-
-  (symbol_instances
-    (path "/c8eda2b5-ab13-4033-82d9-875c9fcaf884/eea4dd1f-0426-4b34-8e32-825d6eb25fc5/a711b311-3cbc-4629-87fb-1dca1d30fb71"
-      (reference "ARDUINO1") (unit 1) (value "ARDUINO_MEGA") (footprint "footprints:ARDUINO_MEGA_SHIELD")
-    )
-    (path "/c8eda2b5-ab13-4033-82d9-875c9fcaf884/b04a05cb-1dc0-4c9d-9f8b-3321d84acd07/92933e8f-046c-49b3-8aad-990d41a8a407"
-      (reference "FEATHER1") (unit 1) (value "FEATHER_nRF52") (footprint "Janelia:FEATHERWING_PIN_RECEPTACLES")
-    )
-    (path "/c8eda2b5-ab13-4033-82d9-875c9fcaf884/eea4dd1f-0426-4b34-8e32-825d6eb25fc5/0576b776-2dc5-4fae-8347-337d4ae79d9d"
-      (reference "M1") (unit 1) (value "Stepper_Motor_QSH2818-32-07-006") (footprint "")
-    )
-    (path "/c8eda2b5-ab13-4033-82d9-875c9fcaf884/b04a05cb-1dc0-4c9d-9f8b-3321d84acd07/0576b776-2dc5-4fae-8347-337d4ae79d9d"
-      (reference "M1") (unit 1) (value "Stepper_Motor_QSH2818-32-07-006") (footprint "")
-    )
-    (path "/c8eda2b5-ab13-4033-82d9-875c9fcaf884/2a1dc514-7df6-499f-97d3-aee7548517ec/ee752682-5ed8-4d52-aa3b-e20cd1dbbab2"
-      (reference "M1") (unit 1) (value "Stepper_Motor_QSH2818-32-07-006") (footprint "")
-    )
-    (path "/c8eda2b5-ab13-4033-82d9-875c9fcaf884/eea4dd1f-0426-4b34-8e32-825d6eb25fc5/14a44266-94b5-4542-8922-6badec1f5e83"
-      (reference "R1") (unit 1) (value "1k") (footprint "footprints:SM0805")
-    )
-    (path "/c8eda2b5-ab13-4033-82d9-875c9fcaf884/b04a05cb-1dc0-4c9d-9f8b-3321d84acd07/14a44266-94b5-4542-8922-6badec1f5e83"
-      (reference "R1") (unit 1) (value "1k") (footprint "footprints:SM0805")
-    )
-    (path "/c8eda2b5-ab13-4033-82d9-875c9fcaf884/2a1dc514-7df6-499f-97d3-aee7548517ec/890e8139-634b-44f4-b73c-a62392dae63e"
-      (reference "R1") (unit 1) (value "1k") (footprint "footprints:SM0805")
-    )
-    (path "/c8eda2b5-ab13-4033-82d9-875c9fcaf884/2a1dc514-7df6-499f-97d3-aee7548517ec/020289be-79e9-44c6-beb7-1483aa88578a"
-      (reference "SS1") (unit 1) (value "STEPSTICK_TMC2209") (footprint "footprints:STEPSTICK_TMC2209")
-    )
-    (path "/c8eda2b5-ab13-4033-82d9-875c9fcaf884/eea4dd1f-0426-4b34-8e32-825d6eb25fc5/31e4d61f-ad25-4150-884d-48543a768340"
-      (reference "SS1") (unit 1) (value "STEPSTICK_TMC2209") (footprint "footprints:STEPSTICK_TMC2209")
-    )
-    (path "/c8eda2b5-ab13-4033-82d9-875c9fcaf884/b04a05cb-1dc0-4c9d-9f8b-3321d84acd07/31e4d61f-ad25-4150-884d-48543a768340"
-      (reference "SS1") (unit 1) (value "STEPSTICK_TMC2209") (footprint "footprints:STEPSTICK_TMC2209")
-    )
-    (path "/c8eda2b5-ab13-4033-82d9-875c9fcaf884/2a1dc514-7df6-499f-97d3-aee7548517ec/6b7fd21d-1399-4b05-9e50-c8e9ffbfc291"
-      (reference "TEENSY1") (unit 1) (value "TEENSY_4.0_HEADERS") (footprint "footprints:TEENSY_4.0_HEADERS")
-    )
   )
 )

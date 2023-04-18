@@ -1,22 +1,22 @@
-- [About](#org45adf98)
-- [Images](#orga192416)
-- [Schematic](#org2daba21)
-- [PCB](#orgef8a1f1)
-- [Bill of Materials](#org65267f4)
-- [Development](#orgb60563d)
+- [About](#org0de4295)
+- [Images](#org4daaa50)
+- [Schematic](#org8920924)
+- [PCB](#orgf050ae3)
+- [Bill of Materials](#orgf78294e)
+- [Development](#org873bf2f)
 
     <!-- This file is generated automatically from metadata -->
     <!-- File edits may be overwritten! -->
 
 
-<a id="org45adf98"></a>
+<a id="org0de4295"></a>
 
 # About
 
 ```markdown
 - Project Name: trinamic_wiring
 - Description: Wiring documentation for various Trinamic devices and ICs.
-- Version: 0.3.0
+- Version: 0.3
 - Kicad Version: 7.0.1
 - Release Date: 2023-04-18
 - Creation Date: 2022-11-02
@@ -31,22 +31,22 @@
 ```
 
 
-<a id="orga192416"></a>
+<a id="org4daaa50"></a>
 
 # Images
 
 
-<a id="org2daba21"></a>
+<a id="org8920924"></a>
 
 # Schematic
 
 
-<a id="orgef8a1f1"></a>
+<a id="orgf050ae3"></a>
 
 # PCB
 
 
-<a id="org65267f4"></a>
+<a id="orgf78294e"></a>
 
 # Bill of Materials
 
@@ -64,7 +64,7 @@
 |---- |----------- |------------------------ |------------ |-------- |
 
 
-<a id="orgb60563d"></a>
+<a id="org873bf2f"></a>
 
 # Development
 

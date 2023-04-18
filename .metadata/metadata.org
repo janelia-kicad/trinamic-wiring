@@ -21,7 +21,7 @@ trinamic_wiring
 
 #+NAME: version
 #+BEGIN_SRC text :exports none :noweb yes
-0.3.0
+0.3
 #+END_SRC
 
 #+NAME: description

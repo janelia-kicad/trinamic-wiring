@@ -6,7 +6,7 @@
     "dateCreated": "2022-11-02",
     "dateModified": "2023-04-18",
     "name": "trinamic_wiring",
-    "version": "0.3.0",
+    "version": "0.3",
     "description": "Wiring documentation for various Trinamic devices and ICs.",
     "programmingLanguage": [
         "KiCad"

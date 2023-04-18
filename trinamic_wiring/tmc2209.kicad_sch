@@ -1,46 +1,68 @@
-(kicad_sch (version 20211123) (generator eeschema)
+(kicad_sch (version 20230121) (generator eeschema)
 
   (uuid bcf4cac7-ecbd-4a99-935e-52077ad9ccda)
 
   (paper "A4")
+
+  (title_block
+    (title "Trinamic Wiring")
+    (date "2023-04-18")
+    (rev "0.3")
+    (company "Janelia Research Campus")
+  )
 
   (lib_symbols
   )
 
 
   (sheet (at 100.33 35.56) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 2a1dc514-7df6-499f-97d3-aee7548517ec)
-    (property "Sheet name" "TMC2209_TEENSY40" (id 0) (at 100.33 34.8484 0)
+    (property "Sheetname" "TMC2209_TEENSY40" (at 100.33 34.8484 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "tmc2209_teensy40.kicad_sch" (id 1) (at 100.33 39.9546 0)
+    (property "Sheetfile" "tmc2209_teensy40.kicad_sch" (at 100.33 39.9546 0)
       (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "trinamic_wiring"
+        (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884" (page "3"))
+      )
     )
   )
 
   (sheet (at 100.33 66.04) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid b04a05cb-1dc0-4c9d-9f8b-3321d84acd07)
-    (property "Sheet name" "TMC2209_FEATHER_NRF52" (id 0) (at 100.33 65.3284 0)
+    (property "Sheetname" "TMC2209_FEATHER_NRF52" (at 100.33 65.3284 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "tmc2209_feather_nrf52.kicad_sch" (id 1) (at 100.33 70.4346 0)
+    (property "Sheetfile" "tmc2209_feather_nrf52.kicad_sch" (at 100.33 70.4346 0)
       (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "trinamic_wiring"
+        (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884" (page "5"))
+      )
     )
   )
 
   (sheet (at 100.33 50.8) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid eea4dd1f-0426-4b34-8e32-825d6eb25fc5)
-    (property "Sheet name" "TMC2209_MEGA2560" (id 0) (at 100.33 50.0884 0)
+    (property "Sheetname" "TMC2209_MEGA2560" (at 100.33 50.0884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "tmc2209_mega2560.kicad_sch" (id 1) (at 100.33 55.1946 0)
+    (property "Sheetfile" "tmc2209_mega2560.kicad_sch" (at 100.33 55.1946 0)
       (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "trinamic_wiring"
+        (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884" (page "4"))
+      )
     )
   )
 )
