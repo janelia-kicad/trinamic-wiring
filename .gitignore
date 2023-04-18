@@ -1,10 +1,9 @@
 # For PCBs designed using KiCad: https://www.kicad.org/
 # Format documentation: https://kicad.org/help/file-formats/
 
-# Output files
-*.pdf
-*.png
-*.svg
+# Ignore all files that include # character
+*#*
+*/#*
 
 # Temporary files
 *.000
@@ -30,5 +29,8 @@ fp-info-cache
 *.ses
 
 # Exported BOM files
-*.xml
-*.csv
+#*.xml
+#*.csv
+
+# Freerouting
+*.bin

@@ -1,12 +1,12 @@
 {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
-    "license": "https://spdx.org/licenses/Janelia Research Campus Open-Source Hardware",
-    "codeRepository": "git+https://github.com/janelia-kicad/trinamic_wiring.git",
+    "license": "https://spdx.org/licenses/BSD-3-Clause",
+    "codeRepository": "https://github.com/janelia-kicad/trinamic_wiring",
     "dateCreated": "2022-11-02",
-    "dateModified": "2022-11-28",
+    "dateModified": "2023-04-18",
     "name": "trinamic_wiring",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "description": "Wiring documentation for various Trinamic devices and ICs.",
     "programmingLanguage": [
         "KiCad"

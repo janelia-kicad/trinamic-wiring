@@ -10,8 +10,11 @@
    "make"
    "bash"
    "git"
-   "imagemagick"
-   "graphicsmagick"
    "emacs"
    "emacs-org"
-   "emacs-ox-gfm"))
+   "emacs-ox-gfm"
+   "imagemagick"
+   "inkscape"
+   "python"
+   "python-ipython"
+   "python-kicad-bom"))
