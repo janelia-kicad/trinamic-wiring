@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Janelia")(type "KiCad")(uri "${KICAD_USER_DIR}/symbols/Janelia.kicad_sym")(options "")(descr ""))
+)

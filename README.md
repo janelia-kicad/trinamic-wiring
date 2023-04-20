@@ -1,15 +1,11 @@
-- [About](#org0de4295)
-- [Images](#org4daaa50)
-- [Schematic](#org8920924)
-- [PCB](#orgf050ae3)
-- [Bill of Materials](#orgf78294e)
-- [Development](#org873bf2f)
+- [About](#orgd26f347)
+- [Development](#orgd59d438)
 
     <!-- This file is generated automatically from metadata -->
     <!-- File edits may be overwritten! -->
 
 
-<a id="org0de4295"></a>
+<a id="orgd26f347"></a>
 
 # About
 
@@ -18,7 +14,7 @@
 - Description: Wiring documentation for various Trinamic devices and ICs.
 - Version: 0.3
 - Kicad Version: 7.0.1
-- Release Date: 2023-04-18
+- Release Date: 2023-04-20
 - Creation Date: 2022-11-02
 - License: BSD-3-Clause
 - URL: https://github.com/janelia-kicad/trinamic_wiring
@@ -31,40 +27,7 @@
 ```
 
 
-<a id="org4daaa50"></a>
-
-# Images
-
-
-<a id="org8920924"></a>
-
-# Schematic
-
-
-<a id="orgf050ae3"></a>
-
-# PCB
-
-
-<a id="orgf78294e"></a>
-
-# Bill of Materials
-
-
-## Board
-
-|    |
-|--- |
-|  |
-
-
-## Supplemental
-
-| Item | Description | Manufacturer Part Number | Manufacturer | Quantity |
-|---- |----------- |------------------------ |------------ |-------- |
-
-
-<a id="org873bf2f"></a>
+<a id="orgd59d438"></a>
 
 # Development
 

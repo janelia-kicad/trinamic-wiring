@@ -4,7 +4,7 @@
     "license": "https://spdx.org/licenses/BSD-3-Clause",
     "codeRepository": "https://github.com/janelia-kicad/trinamic_wiring",
     "dateCreated": "2022-11-02",
-    "dateModified": "2023-04-18",
+    "dateModified": "2023-04-20",
     "name": "trinamic_wiring",
     "version": "0.3",
     "description": "Wiring documentation for various Trinamic devices and ICs.",
