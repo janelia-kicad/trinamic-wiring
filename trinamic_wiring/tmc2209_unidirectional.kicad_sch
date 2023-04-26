@@ -5,7 +5,10 @@
   (paper "A4")
 
   (title_block
+    (title "Trinamic Wiring")
     (date "2023-04-20")
+    (rev "0.3")
+    (company "Janelia Research Campus")
   )
 
   (lib_symbols

@@ -1,11 +1,11 @@
-- [About](#orgd26f347)
-- [Development](#orgd59d438)
+- [About](#org0c7bd8a)
+- [Development](#org7bb0216)
 
     <!-- This file is generated automatically from metadata -->
     <!-- File edits may be overwritten! -->
 
 
-<a id="orgd26f347"></a>
+<a id="org0c7bd8a"></a>
 
 # About
 
@@ -14,7 +14,7 @@
 - Description: Wiring documentation for various Trinamic devices and ICs.
 - Version: 0.3
 - Kicad Version: 7.0.1
-- Release Date: 2023-04-20
+- Release Date: 2023-04-26
 - Creation Date: 2022-11-02
 - License: BSD-3-Clause
 - URL: https://github.com/janelia-kicad/trinamic_wiring
@@ -27,7 +27,7 @@
 ```
 
 
-<a id="orgd59d438"></a>
+<a id="org7bb0216"></a>
 
 # Development
 
