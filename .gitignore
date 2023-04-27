@@ -34,3 +34,6 @@ fp-info-cache
 
 # Freerouting
 *.bin
+
+# Exported png files
+*.png

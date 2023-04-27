@@ -29,6 +29,10 @@ project-edits:
 	# $(GUIX-CONTAINER) -S /home/$(USER)/.config/kicad/7.0=$(MAKEFILE_DIR)/.config/kicad/7.0 -- kicad
 	$(GUIX-SHELL) -- kicad
 
-.PHONY: png-files
-png-files:
+.PHONY: medium-png-files
+medium-png-files:
 	$(GUIX-CONTAINER) -- inkscape documentation/schematic/*.svg --export-width=600 -D --export-type=png
+
+.PHONY: large-png-files
+large-png-files:
+	$(GUIX-CONTAINER) -- inkscape documentation/schematic/*.svg --export-width=1200 -D --export-type=png
