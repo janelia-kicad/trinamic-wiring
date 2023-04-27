@@ -107,6 +107,9 @@
         (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884/e3613d8e-f506-47d6-ad2d-b0f5798d9847"
           (reference "microcontroller1") (unit 1)
         )
+        (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884/5b0a2695-6b0b-4c82-b9d6-7e19fee75501"
+          (reference "microcontroller3") (unit 1)
+        )
       )
     )
   )
@@ -134,6 +137,9 @@
         )
         (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884/e3613d8e-f506-47d6-ad2d-b0f5798d9847"
           (reference "TMC1") (unit 1)
+        )
+        (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884/5b0a2695-6b0b-4c82-b9d6-7e19fee75501"
+          (reference "TMC4") (unit 1)
         )
       )
     )
