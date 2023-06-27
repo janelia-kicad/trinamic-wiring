@@ -6,7 +6,7 @@
 
   (title_block
     (title "Trinamic Wiring")
-    (date "2023-04-27")
+    (date "2023-06-27")
     (rev "0.3")
     (company "Janelia Research Campus")
   )
@@ -79,6 +79,23 @@
     (instances
       (project "trinamic_wiring"
         (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 204.47 35.56) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 700ebcf6-97e4-406c-9a87-76fe63afd177)
+    (property "Sheetname" "TMC2209_UNO" (at 204.47 34.8484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "tmc2209_uno.kicad_sch" (at 204.47 39.9546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "trinamic_wiring"
+        (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884" (page "10"))
       )
     )
   )
