@@ -31,12 +31,5 @@ project-edits:
 
 .PHONY: cropped
 cropped:
-	$(GUIX-CONTAINER) -- inkscape -D --export-overwrite --export-type=svg documentation/schematic/*.svg
-
-.PHONY: medium-png-files
-medium-png-files:
-	$(GUIX-CONTAINER) -- inkscape --export-width=600 -D --export-type=png documentation/schematic/*.svg
-
-.PHONY: large-png-files
-large-png-files:
-	$(GUIX-CONTAINER) -- inkscape --export-width=1200 -D --export-type=png documentation/schematic/*.svg
+	# $(GUIX-SHELL) -- inkscape -D --export-overwrite --export-plain-svg documentation/schematic/*.svg
+	inkscape -D --export-overwrite --export-plain-svg documentation/schematic/*.svg

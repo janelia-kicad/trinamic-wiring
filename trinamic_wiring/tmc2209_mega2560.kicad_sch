@@ -6,8 +6,8 @@
 
   (title_block
     (title "Trinamic Wiring")
-    (date "2023-06-27")
-    (rev "0.3")
+    (date "2023-08-01")
+    (rev "0.4")
     (company "Janelia Research Campus")
   )
 
