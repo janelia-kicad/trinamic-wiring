@@ -178,7 +178,7 @@
   )
 
   (label "+VCCIO" (at 153.67 82.55 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (effects (font (size 1.27 1.27) (color 255 0 255 1)) (justify right bottom))
     (uuid 48095716-e68b-48f5-968f-b524dabb9cc4)
   )
 
