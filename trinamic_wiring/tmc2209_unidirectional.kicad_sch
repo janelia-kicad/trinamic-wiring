@@ -6,17 +6,17 @@
 
   (title_block
     (title "Trinamic Wiring")
-    (date "2023-08-01")
+    (date "2023-08-02")
     (rev "0.4")
     (company "Janelia Research Campus")
   )
 
   (lib_symbols
-    (symbol "Janelia:DOC_MCU_UART" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "MICROCONTROLLER" (at 0 19.05 0) (do_not_autoplace)
+    (symbol "Janelia:DOC_MCU" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+      (property "Reference" "MICROCONTROLLER4" (at 0 19.05 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Value" "DOC_MCU_UART" (at 0 13.97 0)
+      (property "Value" "DOC_MCU" (at 0 13.97 0)
         (effects (font (size 1.524 1.524)) hide)
       )
       (property "Footprint" "" (at -2.54 -26.67 0)
@@ -28,23 +28,51 @@
       (property "Sim.Enable" "0" (at 0 16.51 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "DOC_MCU_UART_0_1"
+      (symbol "DOC_MCU_0_1"
         (rectangle (start -10.16 12.7) (end 10.16 -12.7)
           (stroke (width 0) (type default))
           (fill (type none))
         )
       )
-      (symbol "DOC_MCU_UART_1_1"
+      (symbol "DOC_MCU_1_1"
         (text "MICROCONTROLLER" (at 0 0 0)
           (effects (font (size 1.27 1.27) bold))
         )
-        (pin input line (at 12.7 -10.16 180) (length 2.54)
+        (pin input line (at 12.7 7.62 180) (length 2.54)
           (name "RX" (effects (font (size 1.27 1.27))))
           (number "0" (effects (font (size 1.27 1.27))))
         )
         (pin output line (at 12.7 10.16 180) (length 2.54)
           (name "TX" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at 12.7 -5.08 180) (length 2.54) hide
+          (name "RX2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin output line (at 12.7 -2.54 180) (length 2.54) hide
+          (name "TX2" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin output line (at 12.7 -7.62 180) (length 2.54) hide
+          (name "TX3" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at 12.7 -10.16 180) (length 2.54) hide
+          (name "RX3" (effects (font (size 1.27 1.27))))
+          (number "5" (effects (font (size 1.27 1.27))))
+        )
+        (pin output line (at 12.7 5.08 180) (length 2.54) hide
+          (name "STEP" (effects (font (size 1.27 1.27))))
+          (number "6" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at 12.7 2.54 180) (length 2.54) hide
+          (name "DIR" (effects (font (size 1.27 1.27))))
+          (number "7" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at 0 -15.24 90) (length 2.54) hide
+          (name "SPI" (effects (font (size 1.27 1.27))))
+          (number "8" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -123,20 +151,20 @@
   )
 
 
-  (no_connect (at 119.38 105.41) (uuid 131c1436-8009-4bd6-baf7-537872019c83))
+  (no_connect (at 119.38 87.63) (uuid 131c1436-8009-4bd6-baf7-537872019c83))
 
   (wire (pts (xy 119.38 85.09) (xy 144.78 85.09))
     (stroke (width 0) (type default))
     (uuid 0974f36f-d70c-495d-bb3a-e52481a9ea1c)
   )
 
-  (symbol (lib_id "Janelia:DOC_MCU_UART") (at 106.68 95.25 0) (unit 1)
+  (symbol (lib_id "Janelia:DOC_MCU") (at 106.68 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 68890639-4153-4cdb-a9e4-9f68f08215f1)
-    (property "Reference" "MICROCONTROLLER4" (at 106.68 76.2 0) (do_not_autoplace)
+    (uuid 05a91859-b01b-4c76-b8cf-6b44c96cf1fd)
+    (property "Reference" "MICROCONTROLLER4" (at 106.68 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "DOC_MCU_UART" (at 106.68 81.28 0)
+    (property "Value" "DOC_MCU" (at 106.68 81.28 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Footprint" "" (at 104.14 121.92 0)
@@ -148,12 +176,22 @@
     (property "Sim.Enable" "0" (at 106.68 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "0" (uuid c4c24128-18d8-4193-a721-7d67d7975c8a))
-    (pin "1" (uuid c384637c-6917-4590-a000-fac4d7e296d5))
+    (pin "0" (uuid ef3415a3-bffa-467d-ac36-8a03ec98298d))
+    (pin "1" (uuid a0297548-c7c2-433f-8632-c614dd3b8cbe))
+    (pin "2" (uuid b08a6dca-5602-4045-875e-d8e492940249))
+    (pin "3" (uuid 804567e2-110c-4806-80a0-98d15f386d03))
+    (pin "4" (uuid a6fc9ea0-d6e6-4830-b151-10c057ab9c93))
+    (pin "5" (uuid 0f1eb4f4-0208-4e03-9da3-9cbb19cc7037))
+    (pin "6" (uuid 7f5d2968-49ad-439a-ba6a-567f6dd9a813))
+    (pin "7" (uuid f875c949-20ba-4656-9543-fd650d356c62))
+    (pin "8" (uuid 54d890ca-477d-4879-aaac-a534c30c39f6))
     (instances
       (project "trinamic_wiring"
         (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884/13e2a7b5-46df-44bb-8dde-5d79d190b8bf"
           (reference "MICROCONTROLLER4") (unit 1)
+        )
+        (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884/8277c47e-3fcc-48ef-9892-6d34b4c51a79"
+          (reference "MICROCONTROLLER8") (unit 1)
         )
       )
     )
@@ -192,6 +230,9 @@
       (project "trinamic_wiring"
         (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884/13e2a7b5-46df-44bb-8dde-5d79d190b8bf"
           (reference "TMC6") (unit 1)
+        )
+        (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884/8277c47e-3fcc-48ef-9892-6d34b4c51a79"
+          (reference "TMC13") (unit 1)
         )
       )
     )
