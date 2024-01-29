@@ -1,11 +1,11 @@
-- [About](#org0c7bd8a)
-- [Development](#org7bb0216)
+- [About](#org903ee97)
+- [Development](#org3c9a3be)
 
     <!-- This file is generated automatically from metadata -->
     <!-- File edits may be overwritten! -->
 
 
-<a id="org0c7bd8a"></a>
+<a id="org903ee97"></a>
 
 # About
 
@@ -13,21 +13,21 @@
 - Project Name: trinamic_wiring
 - Description: Wiring documentation for various Trinamic devices and ICs.
 - Version: 0.3
-- Kicad Version: 7.0.1
-- Release Date: 2023-04-26
+- Kicad Version: 7.0.10
+- Release Date: 2024-01-29
 - Creation Date: 2022-11-02
 - License: BSD-3-Clause
 - URL: https://github.com/janelia-kicad/trinamic_wiring
 - Author: Peter Polidoro
 - Email: peter@polidoro.io
-- Copyright: 2023 Howard Hughes Medical Institute
+- Copyright: 2024 Howard Hughes Medical Institute
 - References:
   - https://www.kicad.org/
   - https://www.trinamic.com/products/integrated-circuits/details/tmc2209-la/
 ```
 
 
-<a id="org7bb0216"></a>
+<a id="org3c9a3be"></a>
 
 # Development
 
