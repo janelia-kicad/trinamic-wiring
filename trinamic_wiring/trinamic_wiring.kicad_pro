@@ -382,6 +382,62 @@
     [
       "262bc404-9876-4460-91a4-f9d4b0d72afb",
       "stepper-controller"
+    ],
+    [
+      "a161638e-a96f-4455-865a-1d7502675f43",
+      "TMC51X0"
+    ],
+    [
+      "eea4dd1f-0426-4b34-8e32-825d6eb25fc5",
+      "mega2560"
+    ],
+    [
+      "13e2a7b5-46df-44bb-8dde-5d79d190b8bf",
+      "unidirectional"
+    ],
+    [
+      "8b14fa14-b5a5-4a20-b7f5-9504bcb63f71",
+      "microcontroller"
+    ],
+    [
+      "5f6f310d-167d-42a3-8815-1b623fe73dc8",
+      "bidirectional-coupled-multiple-address"
+    ],
+    [
+      "00672f55-5cea-4051-abd7-9136695f76d0",
+      "bidirectional-coupled-multiple-uart"
+    ],
+    [
+      "5b0a2695-6b0b-4c82-b9d6-7e19fee75501",
+      "unidirectional-multiple"
+    ],
+    [
+      "e3613d8e-f506-47d6-ad2d-b0f5798d9847",
+      "bidirectional-coupled"
+    ],
+    [
+      "700ebcf6-97e4-406c-9a87-76fe63afd177",
+      "uno"
+    ],
+    [
+      "a2ce530e-f5b5-4e3e-9188-e4bc8f84c739",
+      "unidirectional-multiple-address"
+    ],
+    [
+      "d4a56977-1958-4e49-bd54-bb12e595a31d",
+      "unidirectional-multiple-uart"
+    ],
+    [
+      "2a1dc514-7df6-499f-97d3-aee7548517ec",
+      "teensy40"
+    ],
+    [
+      "262bc404-9876-4460-91a4-f9d4b0d72afb",
+      "stepper-controller"
+    ],
+    [
+      "8277c47e-3fcc-48ef-9892-6d34b4c51a79",
+      "description"
     ]
   ],
   "text_variables": {}

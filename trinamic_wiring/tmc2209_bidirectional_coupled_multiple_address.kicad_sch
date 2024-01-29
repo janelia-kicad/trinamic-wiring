@@ -329,7 +329,7 @@
   (symbol (lib_name "DOC_TMC2209_1") (lib_id "Janelia:DOC_TMC2209") (at 166.37 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 04cac5af-af65-4452-888d-37f0f148c47e)
-    (property "Reference" "TMC6" (at 166.37 68.58 0)
+    (property "Reference" "TMC11" (at 166.37 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "DOC_TMC2209" (at 166.37 73.66 0)
@@ -357,20 +357,11 @@
     (pin "9" (uuid a086a800-59da-4903-8f56-cfed7a4a78fb))
     (instances
       (project "trinamic_wiring"
-        (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884/13e2a7b5-46df-44bb-8dde-5d79d190b8bf"
-          (reference "TMC6") (unit 1)
-        )
-        (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884/5b0a2695-6b0b-4c82-b9d6-7e19fee75501"
-          (reference "TMC1") (unit 1)
-        )
-        (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884/a2ce530e-f5b5-4e3e-9188-e4bc8f84c739"
-          (reference "TMC4") (unit 1)
-        )
         (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884/5f6f310d-167d-42a3-8815-1b623fe73dc8"
           (reference "TMC11") (unit 1)
         )
-        (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884/00672f55-5cea-4051-abd7-9136695f76d0"
-          (reference "TMC2") (unit 1)
+        (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/5f6f310d-167d-42a3-8815-1b623fe73dc8"
+          (reference "TMC6") (unit 1)
         )
       )
     )
@@ -379,7 +370,7 @@
   (symbol (lib_id "Janelia:DOC_TMC2209") (at 166.37 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2a9604bc-60cb-45fb-8643-ccbac3105160)
-    (property "Reference" "TMC6" (at 166.37 96.52 0)
+    (property "Reference" "TMC12" (at 166.37 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "DOC_TMC2209" (at 166.37 101.6 0)
@@ -407,20 +398,11 @@
     (pin "9" (uuid 24cf2c42-05ed-45bf-a99d-bf5895da1e79))
     (instances
       (project "trinamic_wiring"
-        (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884/13e2a7b5-46df-44bb-8dde-5d79d190b8bf"
-          (reference "TMC6") (unit 1)
-        )
-        (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884/5b0a2695-6b0b-4c82-b9d6-7e19fee75501"
-          (reference "TMC8") (unit 1)
-        )
-        (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884/a2ce530e-f5b5-4e3e-9188-e4bc8f84c739"
-          (reference "TMC5") (unit 1)
-        )
         (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884/5f6f310d-167d-42a3-8815-1b623fe73dc8"
           (reference "TMC12") (unit 1)
         )
-        (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884/00672f55-5cea-4051-abd7-9136695f76d0"
-          (reference "TMC3") (unit 1)
+        (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/5f6f310d-167d-42a3-8815-1b623fe73dc8"
+          (reference "TMC6") (unit 1)
         )
       )
     )
@@ -429,7 +411,7 @@
   (symbol (lib_id "Janelia:R_1k_0402") (at 134.62 77.47 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6a1ea1c5-4ab8-48ea-8069-f34460bf2e63)
-    (property "Reference" "R2" (at 134.62 76.2 0)
+    (property "Reference" "R4" (at 134.62 76.2 0)
       (effects (font (size 1.016 1.016)) (justify left) hide)
     )
     (property "Value" "1k" (at 134.62 77.47 90)
@@ -463,14 +445,11 @@
     (pin "2" (uuid 197a89bc-9943-4367-aec3-baf2ebd37afa))
     (instances
       (project "trinamic_wiring"
-        (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884/e3613d8e-f506-47d6-ad2d-b0f5798d9847"
-          (reference "R2") (unit 1)
-        )
         (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884/5f6f310d-167d-42a3-8815-1b623fe73dc8"
           (reference "R4") (unit 1)
         )
-        (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884/00672f55-5cea-4051-abd7-9136695f76d0"
-          (reference "R3") (unit 1)
+        (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/5f6f310d-167d-42a3-8815-1b623fe73dc8"
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -479,7 +458,7 @@
   (symbol (lib_id "Janelia:DOC_MCU") (at 113.03 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cd8d5da8-93fd-4d54-9955-d5014e9b01f2)
-    (property "Reference" "MICROCONTROLLER4" (at 113.03 68.58 0)
+    (property "Reference" "MICROCONTROLLER7" (at 113.03 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "DOC_MCU" (at 113.03 73.66 0)
@@ -505,17 +484,11 @@
     (pin "8" (uuid 53bb28f6-ac86-4f74-84a5-f218eee38d1a))
     (instances
       (project "trinamic_wiring"
-        (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884/13e2a7b5-46df-44bb-8dde-5d79d190b8bf"
-          (reference "MICROCONTROLLER4") (unit 1)
-        )
-        (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884/e3613d8e-f506-47d6-ad2d-b0f5798d9847"
-          (reference "MICROCONTROLLER5") (unit 1)
-        )
         (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884/5f6f310d-167d-42a3-8815-1b623fe73dc8"
           (reference "MICROCONTROLLER7") (unit 1)
         )
-        (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884/00672f55-5cea-4051-abd7-9136695f76d0"
-          (reference "MICROCONTROLLER2") (unit 1)
+        (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/5f6f310d-167d-42a3-8815-1b623fe73dc8"
+          (reference "MICROCONTROLLER4") (unit 1)
         )
       )
     )

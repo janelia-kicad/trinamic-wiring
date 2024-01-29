@@ -711,7 +711,7 @@
           (reference "M2") (unit 1)
         )
         (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/700ebcf6-97e4-406c-9a87-76fe63afd177"
-          (reference "M1") (unit 1)
+          (reference "M2") (unit 1)
         )
       )
     )
@@ -772,7 +772,7 @@
           (reference "SS2") (unit 1)
         )
         (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/700ebcf6-97e4-406c-9a87-76fe63afd177"
-          (reference "SS1") (unit 1)
+          (reference "SS2") (unit 1)
         )
       )
     )

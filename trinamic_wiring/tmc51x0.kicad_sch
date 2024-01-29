@@ -22,7 +22,7 @@
     (property "Sheetname" "bidirectional-coupled-multiple-uart" (at 208.28 128.8284 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "tmc2209_bidirectional_coupled_multiple_uart.kicad_sch" (at 208.28 133.9346 0)
+    (property "Sheetfile" "tmc51x0_bidirectional_coupled_multiple_uart.kicad_sch" (at 208.28 133.9346 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
@@ -40,7 +40,7 @@
     (property "Sheetname" "unidirectional" (at 43.18 103.4284 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "tmc2209_unidirectional.kicad_sch" (at 43.18 108.5346 0)
+    (property "Sheetfile" "tmc51x0_unidirectional.kicad_sch" (at 43.18 108.5346 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
@@ -58,7 +58,7 @@
     (property "Sheetname" "stepper-controller" (at 144.78 52.6284 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "tmc2209_stepper-controller.kicad_sch" (at 144.78 57.7346 0)
+    (property "Sheetfile" "tmc51x0_stepper-controller.kicad_sch" (at 144.78 57.7346 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
@@ -76,7 +76,7 @@
     (property "Sheetname" "teensy40" (at 43.18 78.0284 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "tmc2209_teensy40.kicad_sch" (at 43.18 83.1346 0)
+    (property "Sheetfile" "tmc51x0_teensy40.kicad_sch" (at 43.18 83.1346 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
@@ -94,7 +94,7 @@
     (property "Sheetname" "unidirectional-multiple" (at 93.98 103.4284 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "tmc2209_unidirectional_multiple.kicad_sch" (at 93.98 108.5346 0)
+    (property "Sheetfile" "tmc51x0_unidirectional_multiple.kicad_sch" (at 93.98 108.5346 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
@@ -112,7 +112,7 @@
     (property "Sheetname" "bidirectional-coupled-multiple-address" (at 93.98 128.8284 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "tmc2209_bidirectional_coupled_multiple_address.kicad_sch" (at 93.98 133.9346 0)
+    (property "Sheetfile" "tmc51x0_bidirectional_coupled_multiple_address.kicad_sch" (at 93.98 133.9346 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
@@ -130,7 +130,7 @@
     (property "Sheetname" "uno" (at 144.78 78.0284 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "tmc2209_uno.kicad_sch" (at 144.78 83.1346 0)
+    (property "Sheetfile" "tmc51x0_uno.kicad_sch" (at 144.78 83.1346 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
@@ -148,7 +148,7 @@
     (property "Sheetname" "description" (at 43.18 52.6284 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "tmc2209_description.kicad_sch" (at 43.18 57.7346 0)
+    (property "Sheetfile" "tmc51x0_description.kicad_sch" (at 43.18 57.7346 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
@@ -166,7 +166,7 @@
     (property "Sheetname" "microcontroller" (at 93.98 52.6284 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "tmc2209_microcontroller.kicad_sch" (at 93.98 57.7346 0)
+    (property "Sheetfile" "tmc51x0_microcontroller.kicad_sch" (at 93.98 57.7346 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
@@ -184,7 +184,7 @@
     (property "Sheetname" "unidirectional-multiple-address" (at 144.78 103.4284 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "tmc2209_unidirectional_multiple_address.kicad_sch" (at 144.78 108.5346 0)
+    (property "Sheetfile" "tmc51x0_unidirectional_multiple_address.kicad_sch" (at 144.78 108.5346 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
@@ -202,7 +202,7 @@
     (property "Sheetname" "unidirectional-multiple-uart" (at 208.28 103.4284 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "tmc2209_unidirectional_multiple_uart.kicad_sch" (at 208.28 108.5346 0)
+    (property "Sheetfile" "tmc51x0_unidirectional_multiple_uart.kicad_sch" (at 208.28 108.5346 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
@@ -220,7 +220,7 @@
     (property "Sheetname" "bidirectional-coupled" (at 43.18 128.8284 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "tmc2209_bidirectional_coupled.kicad_sch" (at 43.18 133.9346 0)
+    (property "Sheetfile" "tmc51x0_bidirectional_coupled.kicad_sch" (at 43.18 133.9346 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
@@ -238,7 +238,7 @@
     (property "Sheetname" "mega2560" (at 93.98 78.0284 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "tmc2209_mega2560.kicad_sch" (at 93.98 83.1346 0)
+    (property "Sheetfile" "tmc51x0_mega2560.kicad_sch" (at 93.98 83.1346 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances

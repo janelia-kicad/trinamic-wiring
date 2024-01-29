@@ -292,7 +292,7 @@
           (reference "TMC5") (unit 1)
         )
         (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/a2ce530e-f5b5-4e3e-9188-e4bc8f84c739"
-          (reference "TMC6") (unit 1)
+          (reference "TMC5") (unit 1)
         )
       )
     )
@@ -333,7 +333,7 @@
           (reference "TMC4") (unit 1)
         )
         (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/a2ce530e-f5b5-4e3e-9188-e4bc8f84c739"
-          (reference "TMC6") (unit 1)
+          (reference "TMC4") (unit 1)
         )
       )
     )
@@ -372,7 +372,7 @@
           (reference "MICROCONTROLLER3") (unit 1)
         )
         (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/a2ce530e-f5b5-4e3e-9188-e4bc8f84c739"
-          (reference "MICROCONTROLLER4") (unit 1)
+          (reference "MICROCONTROLLER3") (unit 1)
         )
       )
     )
