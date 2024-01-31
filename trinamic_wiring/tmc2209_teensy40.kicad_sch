@@ -6,7 +6,7 @@
 
   (title_block
     (title "Trinamic Wiring")
-    (date "2023-08-02")
+    (date "2024-01-31")
     (rev "0.4")
     (company "Janelia Research Campus")
   )
@@ -743,9 +743,6 @@
         (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884/2a1dc514-7df6-499f-97d3-aee7548517ec"
           (reference "SS1") (unit 1)
         )
-        (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/2a1dc514-7df6-499f-97d3-aee7548517ec"
-          (reference "SS1") (unit 1)
-        )
       )
     )
   )
@@ -815,9 +812,6 @@
         (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884/2a1dc514-7df6-499f-97d3-aee7548517ec"
           (reference "A1") (unit 1)
         )
-        (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/2a1dc514-7df6-499f-97d3-aee7548517ec"
-          (reference "A1") (unit 1)
-        )
       )
     )
   )
@@ -854,9 +848,6 @@
     (instances
       (project "trinamic_wiring"
         (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884/2a1dc514-7df6-499f-97d3-aee7548517ec"
-          (reference "R1") (unit 1)
-        )
-        (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/2a1dc514-7df6-499f-97d3-aee7548517ec"
           (reference "R1") (unit 1)
         )
       )
@@ -897,9 +888,6 @@
     (instances
       (project "trinamic_wiring"
         (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884/2a1dc514-7df6-499f-97d3-aee7548517ec"
-          (reference "M1") (unit 1)
-        )
-        (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/2a1dc514-7df6-499f-97d3-aee7548517ec"
           (reference "M1") (unit 1)
         )
       )

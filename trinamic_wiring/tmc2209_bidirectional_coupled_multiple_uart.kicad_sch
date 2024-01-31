@@ -6,7 +6,7 @@
 
   (title_block
     (title "Trinamic Wiring")
-    (date "2023-08-02")
+    (date "2024-01-31")
     (rev "0.4")
     (company "Janelia Research Campus")
   )
@@ -76,78 +76,6 @@
         )
       )
     )
-    (symbol "Janelia:DOC_TMC2209" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "TMC6" (at 0 19.05 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "DOC_TMC2209" (at 0 13.97 0)
-        (effects (font (size 1.524 1.524)) hide)
-      )
-      (property "Footprint" "" (at -2.54 -26.67 0)
-        (effects (font (size 1.524 1.524)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.524 1.524)) hide)
-      )
-      (property "Sim.Enable" "0" (at 0 16.51 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "DOC_TMC2209_0_1"
-        (rectangle (start -10.16 12.7) (end 10.16 -12.7)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "DOC_TMC2209_1_1"
-        (text "TMC2209" (at 0 0 0)
-          (effects (font (size 1.27 1.27) bold))
-        )
-        (pin bidirectional line (at -12.7 10.16 0) (length 2.54)
-          (name "UART" (effects (font (size 1.27 1.27))))
-          (number "0" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -12.7 5.08 0) (length 2.54) hide
-          (name "STEP" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -12.7 -5.08 0) (length 2.54) hide
-          (name "AD1" (effects (font (size 1.27 1.27))))
-          (number "10" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -12.7 2.54 0) (length 2.54) hide
-          (name "DIR" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 2.54 -15.24 90) (length 2.54) hide
-          (name "BRA" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 7.62 -15.24 90) (length 2.54) hide
-          (name "BRB" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 12.7 5.08 180) (length 2.54) hide
-          (name "OA1" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 12.7 2.54 180) (length 2.54) hide
-          (name "OA2" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 12.7 -2.54 180) (length 2.54) hide
-          (name "OB1" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 12.7 -5.08 180) (length 2.54) hide
-          (name "OB2" (effects (font (size 1.27 1.27))))
-          (number "8" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -12.7 -2.54 0) (length 2.54) hide
-          (name "AD0" (effects (font (size 1.27 1.27))))
-          (number "9" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "Janelia:R_1k_0402" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 2.032 0 90)
         (effects (font (size 1.016 1.016)))
@@ -196,6 +124,78 @@
         (pin passive line (at 0 -6.35 90) (length 2.54)
           (name "~" (effects (font (size 1.524 1.524))))
           (number "2" (effects (font (size 1.524 1.524))))
+        )
+      )
+    )
+    (symbol "Janelia:TMC2209_DOC" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+      (property "Reference" "TMC6" (at 0 19.05 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "TMC2209_DOC" (at 0 13.97 0)
+        (effects (font (size 1.524 1.524)) hide)
+      )
+      (property "Footprint" "" (at -2.54 -26.67 0)
+        (effects (font (size 1.524 1.524)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.524 1.524)) hide)
+      )
+      (property "Sim.Enable" "0" (at 0 16.51 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "TMC2209_DOC_0_1"
+        (rectangle (start -10.16 12.7) (end 10.16 -12.7)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "TMC2209_DOC_1_1"
+        (text "TMC2209" (at 0 0 0)
+          (effects (font (size 1.27 1.27) bold))
+        )
+        (pin bidirectional line (at -12.7 10.16 0) (length 2.54)
+          (name "UART" (effects (font (size 1.27 1.27))))
+          (number "0" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -12.7 5.08 0) (length 2.54) hide
+          (name "STEP" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -12.7 -5.08 0) (length 2.54) hide
+          (name "AD1" (effects (font (size 1.27 1.27))))
+          (number "10" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -12.7 2.54 0) (length 2.54) hide
+          (name "DIR" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 2.54 -15.24 90) (length 2.54) hide
+          (name "BRA" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 7.62 -15.24 90) (length 2.54) hide
+          (name "BRB" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 12.7 5.08 180) (length 2.54) hide
+          (name "OA1" (effects (font (size 1.27 1.27))))
+          (number "5" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 12.7 2.54 180) (length 2.54) hide
+          (name "OA2" (effects (font (size 1.27 1.27))))
+          (number "6" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 12.7 -2.54 180) (length 2.54) hide
+          (name "OB1" (effects (font (size 1.27 1.27))))
+          (number "7" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 12.7 -5.08 180) (length 2.54) hide
+          (name "OB2" (effects (font (size 1.27 1.27))))
+          (number "8" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -12.7 -2.54 0) (length 2.54) hide
+          (name "AD0" (effects (font (size 1.27 1.27))))
+          (number "9" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -297,9 +297,6 @@
         (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884/00672f55-5cea-4051-abd7-9136695f76d0"
           (reference "R3") (unit 1)
         )
-        (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/00672f55-5cea-4051-abd7-9136695f76d0"
-          (reference "R2") (unit 1)
-        )
       )
     )
   )
@@ -344,20 +341,17 @@
         (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884/00672f55-5cea-4051-abd7-9136695f76d0"
           (reference "R5") (unit 1)
         )
-        (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/00672f55-5cea-4051-abd7-9136695f76d0"
-          (reference "R2") (unit 1)
-        )
       )
     )
   )
 
-  (symbol (lib_id "Janelia:DOC_TMC2209") (at 162.56 116.84 0) (unit 1)
+  (symbol (lib_id "Janelia:TMC2209_DOC") (at 162.56 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5eb21e34-0a8a-46a3-bed6-c0411c8c4816)
     (property "Reference" "TMC3" (at 162.56 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "DOC_TMC2209" (at 162.56 102.87 0)
+    (property "Value" "TMC2209_DOC" (at 162.56 102.87 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Footprint" "" (at 160.02 143.51 0)
@@ -385,20 +379,17 @@
         (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884/00672f55-5cea-4051-abd7-9136695f76d0"
           (reference "TMC3") (unit 1)
         )
-        (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/00672f55-5cea-4051-abd7-9136695f76d0"
-          (reference "TMC6") (unit 1)
-        )
       )
     )
   )
 
-  (symbol (lib_id "Janelia:DOC_TMC2209") (at 162.56 88.9 0) (unit 1)
+  (symbol (lib_id "Janelia:TMC2209_DOC") (at 162.56 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d4c70de7-0911-43e7-9c9b-cc9505236393)
     (property "Reference" "TMC2" (at 162.56 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "DOC_TMC2209" (at 162.56 74.93 0)
+    (property "Value" "TMC2209_DOC" (at 162.56 74.93 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Footprint" "" (at 160.02 115.57 0)
@@ -425,9 +416,6 @@
       (project "trinamic_wiring"
         (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884/00672f55-5cea-4051-abd7-9136695f76d0"
           (reference "TMC2") (unit 1)
-        )
-        (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/00672f55-5cea-4051-abd7-9136695f76d0"
-          (reference "TMC6") (unit 1)
         )
       )
     )
@@ -464,9 +452,6 @@
       (project "trinamic_wiring"
         (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884/00672f55-5cea-4051-abd7-9136695f76d0"
           (reference "MICROCONTROLLER2") (unit 1)
-        )
-        (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/00672f55-5cea-4051-abd7-9136695f76d0"
-          (reference "MICROCONTROLLER6") (unit 1)
         )
       )
     )

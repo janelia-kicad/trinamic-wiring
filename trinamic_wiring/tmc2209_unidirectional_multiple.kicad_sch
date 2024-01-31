@@ -6,7 +6,7 @@
 
   (title_block
     (title "Trinamic Wiring")
-    (date "2023-08-02")
+    (date "2024-01-31")
     (rev "0.4")
     (company "Janelia Research Campus")
   )
@@ -76,11 +76,11 @@
         )
       )
     )
-    (symbol "Janelia:DOC_TMC2209" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (symbol "Janelia:TMC2209_DOC" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "TMC6" (at 0 19.05 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Value" "DOC_TMC2209" (at 0 13.97 0)
+      (property "Value" "TMC2209_DOC" (at 0 13.97 0)
         (effects (font (size 1.524 1.524)) hide)
       )
       (property "Footprint" "" (at -2.54 -26.67 0)
@@ -92,13 +92,13 @@
       (property "Sim.Enable" "0" (at 0 16.51 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "DOC_TMC2209_0_1"
+      (symbol "TMC2209_DOC_0_1"
         (rectangle (start -10.16 12.7) (end 10.16 -12.7)
           (stroke (width 0) (type default))
           (fill (type none))
         )
       )
-      (symbol "DOC_TMC2209_1_1"
+      (symbol "TMC2209_DOC_1_1"
         (text "TMC2209" (at 0 0 0)
           (effects (font (size 1.27 1.27) bold))
         )
@@ -173,13 +173,13 @@
     (uuid 9578e1d8-2f22-4bdd-91c2-d4f0708ff9fa)
   )
 
-  (symbol (lib_id "Janelia:DOC_TMC2209") (at 163.83 115.57 0) (unit 1)
+  (symbol (lib_id "Janelia:TMC2209_DOC") (at 163.83 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 166b719d-6b17-4334-8018-ee9e777d27ce)
     (property "Reference" "TMC8" (at 163.83 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "DOC_TMC2209" (at 163.83 101.6 0)
+    (property "Value" "TMC2209_DOC" (at 163.83 101.6 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Footprint" "" (at 161.29 142.24 0)
@@ -207,20 +207,17 @@
         (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884/5b0a2695-6b0b-4c82-b9d6-7e19fee75501"
           (reference "TMC8") (unit 1)
         )
-        (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/5b0a2695-6b0b-4c82-b9d6-7e19fee75501"
-          (reference "TMC6") (unit 1)
-        )
       )
     )
   )
 
-  (symbol (lib_id "Janelia:DOC_TMC2209") (at 163.83 87.63 0) (unit 1)
+  (symbol (lib_id "Janelia:TMC2209_DOC") (at 163.83 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3d7deafe-dab0-439f-93b9-f3382038d828)
     (property "Reference" "TMC1" (at 163.83 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "DOC_TMC2209" (at 163.83 73.66 0)
+    (property "Value" "TMC2209_DOC" (at 163.83 73.66 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Footprint" "" (at 161.29 114.3 0)
@@ -247,9 +244,6 @@
       (project "trinamic_wiring"
         (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884/5b0a2695-6b0b-4c82-b9d6-7e19fee75501"
           (reference "TMC1") (unit 1)
-        )
-        (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/5b0a2695-6b0b-4c82-b9d6-7e19fee75501"
-          (reference "TMC6") (unit 1)
         )
       )
     )
@@ -286,9 +280,6 @@
       (project "trinamic_wiring"
         (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884/5b0a2695-6b0b-4c82-b9d6-7e19fee75501"
           (reference "MICROCONTROLLER1") (unit 1)
-        )
-        (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/5b0a2695-6b0b-4c82-b9d6-7e19fee75501"
-          (reference "MICROCONTROLLER4") (unit 1)
         )
       )
     )

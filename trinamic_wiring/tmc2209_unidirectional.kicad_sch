@@ -6,7 +6,7 @@
 
   (title_block
     (title "Trinamic Wiring")
-    (date "2023-08-02")
+    (date "2024-01-31")
     (rev "0.4")
     (company "Janelia Research Campus")
   )
@@ -76,11 +76,11 @@
         )
       )
     )
-    (symbol "Janelia:DOC_TMC2209" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (symbol "Janelia:TMC2209_DOC" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "TMC6" (at 0 19.05 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Value" "DOC_TMC2209" (at 0 13.97 0)
+      (property "Value" "TMC2209_DOC" (at 0 13.97 0)
         (effects (font (size 1.524 1.524)) hide)
       )
       (property "Footprint" "" (at -2.54 -26.67 0)
@@ -92,13 +92,13 @@
       (property "Sim.Enable" "0" (at 0 16.51 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "DOC_TMC2209_0_1"
+      (symbol "TMC2209_DOC_0_1"
         (rectangle (start -10.16 12.7) (end 10.16 -12.7)
           (stroke (width 0) (type default))
           (fill (type none))
         )
       )
-      (symbol "DOC_TMC2209_1_1"
+      (symbol "TMC2209_DOC_1_1"
         (text "TMC2209" (at 0 0 0)
           (effects (font (size 1.27 1.27) bold))
         )
@@ -190,20 +190,17 @@
         (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884/13e2a7b5-46df-44bb-8dde-5d79d190b8bf"
           (reference "MICROCONTROLLER4") (unit 1)
         )
-        (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/13e2a7b5-46df-44bb-8dde-5d79d190b8bf"
-          (reference "MICROCONTROLLER4") (unit 1)
-        )
       )
     )
   )
 
-  (symbol (lib_id "Janelia:DOC_TMC2209") (at 157.48 95.25 0) (unit 1)
+  (symbol (lib_id "Janelia:TMC2209_DOC") (at 157.48 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ff16fbde-de92-4a12-ba23-0b899eadbd3c)
     (property "Reference" "TMC6" (at 157.48 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "DOC_TMC2209" (at 157.48 81.28 0)
+    (property "Value" "TMC2209_DOC" (at 157.48 81.28 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Footprint" "" (at 154.94 121.92 0)
@@ -229,9 +226,6 @@
     (instances
       (project "trinamic_wiring"
         (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884/13e2a7b5-46df-44bb-8dde-5d79d190b8bf"
-          (reference "TMC6") (unit 1)
-        )
-        (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/13e2a7b5-46df-44bb-8dde-5d79d190b8bf"
           (reference "TMC6") (unit 1)
         )
       )
