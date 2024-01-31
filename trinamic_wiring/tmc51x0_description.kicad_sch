@@ -181,7 +181,7 @@
           (fill (type none))
         )
         (rectangle (start 7.62 6.35) (end 12.7 -6.35)
-          (stroke (width 0) (type dot))
+          (stroke (width 0) (type dash))
           (fill (type none))
         )
         (text "TMC51X0" (at 0 0 0)
