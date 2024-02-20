@@ -15,7 +15,7 @@
     (property "Sheetname" "teensy40" (at 110.49 58.9784 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "tmc51x0_tmc5130_bob_teensy40.kicad_sch" (at 110.49 64.0846 0)
+    (property "Sheetfile" "tmc51x0_tmc51x0_bob_teensy40.kicad_sch" (at 110.49 64.0846 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
