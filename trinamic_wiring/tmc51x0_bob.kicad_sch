@@ -26,4 +26,23 @@
       )
     )
   )
+
+  (sheet (at 162.56 59.69) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid dab15df5-b51f-4c1f-8fc9-49b45f8778bf)
+    (property "Sheetname" "pico" (at 162.56 58.9784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "tmc51x0_tmc51x0_bob_pico.kicad_sch" (at 162.56 64.0846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "trinamic_wiring"
+        (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884" (page "3"))
+        (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43" (page "27"))
+        (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/176cb0b5-cab1-47ac-9998-e59b71e39393" (page "17"))
+      )
+    )
+  )
 )
