@@ -725,9 +725,6 @@
         (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/176cb0b5-cab1-47ac-9998-e59b71e39393/106cbaaa-dd32-4d4d-a442-e3c42a8253b0"
           (reference "A1") (unit 1)
         )
-        (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/176cb0b5-cab1-47ac-9998-e59b71e39393/dab15df5-b51f-4c1f-8fc9-49b45f8778bf"
-          (reference "A1") (unit 1)
-        )
       )
     )
   )
@@ -792,9 +789,6 @@
         (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/176cb0b5-cab1-47ac-9998-e59b71e39393/106cbaaa-dd32-4d4d-a442-e3c42a8253b0"
           (reference "BOB1") (unit 1)
         )
-        (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/176cb0b5-cab1-47ac-9998-e59b71e39393/dab15df5-b51f-4c1f-8fc9-49b45f8778bf"
-          (reference "BOB1") (unit 1)
-        )
       )
     )
   )
@@ -833,9 +827,6 @@
     (instances
       (project "trinamic_wiring"
         (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/176cb0b5-cab1-47ac-9998-e59b71e39393/106cbaaa-dd32-4d4d-a442-e3c42a8253b0"
-          (reference "M1") (unit 1)
-        )
-        (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/176cb0b5-cab1-47ac-9998-e59b71e39393/dab15df5-b51f-4c1f-8fc9-49b45f8778bf"
           (reference "M1") (unit 1)
         )
       )

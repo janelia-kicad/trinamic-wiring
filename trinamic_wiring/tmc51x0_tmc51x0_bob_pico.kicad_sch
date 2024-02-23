@@ -487,11 +487,11 @@
   (no_connect (at 123.19 135.89) (uuid 114f3804-8123-413e-9b42-b79b0e4357e6))
   (no_connect (at 163.83 114.3) (uuid 1d0fca8f-ee67-4424-af8f-b41a87ba649c))
   (no_connect (at 123.19 87.63) (uuid 30f8383f-ce0a-4e5f-8795-eba8ea6e0f95))
+  (no_connect (at 123.19 130.81) (uuid 34052507-c5f0-4c44-bb30-de78854a0637))
   (no_connect (at 36.83 115.57) (uuid 3ae39c92-679e-4a87-b080-c3e4ab65dc36))
   (no_connect (at 36.83 125.73) (uuid 3c130347-9d2c-424b-b45b-232bf563c229))
   (no_connect (at 163.83 104.14) (uuid 407b4946-0cc8-4f58-b4db-96f340fe874d))
   (no_connect (at 163.83 109.22) (uuid 46ba2215-1bc0-494e-9996-1b9557d139bf))
-  (no_connect (at 123.19 92.71) (uuid 49ea9903-3468-4661-b64b-2b5c45e6006a))
   (no_connect (at 163.83 106.68) (uuid 52c6047d-f5a7-4440-966e-b030386b6711))
   (no_connect (at 36.83 128.27) (uuid 70d51925-e85d-412e-9b6d-b41f78f3dfaf))
   (no_connect (at 181.61 128.27) (uuid 7295f581-0683-4289-b077-95b7b75f0350))
@@ -552,7 +552,7 @@
     (stroke (width 0) (type default))
     (uuid 4777addb-7e59-4147-b93d-8d06394c3418)
   )
-  (wire (pts (xy 125.73 130.81) (xy 123.19 130.81))
+  (wire (pts (xy 125.73 92.71) (xy 123.19 92.71))
     (stroke (width 0) (type default))
     (uuid 4b51d83d-ee2c-4fc2-be41-6c04fc18a66b)
   )
@@ -719,7 +719,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid dab8bfe9-9d7b-48be-a6a0-a39e8bf3c905)
   )
-  (label "GND" (at 125.73 130.81 0) (fields_autoplaced)
+  (label "GND" (at 125.73 92.71 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e7c39ecc-d4ce-4410-8fda-002f7df8704f)
   )
@@ -781,9 +781,6 @@
     (pin "15" (uuid c797a549-548f-464d-9900-331e6c20443f))
     (instances
       (project "trinamic_wiring"
-        (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/176cb0b5-cab1-47ac-9998-e59b71e39393/106cbaaa-dd32-4d4d-a442-e3c42a8253b0"
-          (reference "BOB1") (unit 1)
-        )
         (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/176cb0b5-cab1-47ac-9998-e59b71e39393/dab15df5-b51f-4c1f-8fc9-49b45f8778bf"
           (reference "BOB1") (unit 1)
         )
@@ -906,9 +903,6 @@
     (pin "B-" (uuid 285f19f3-9a00-4430-a3ec-ef49b7a6581d))
     (instances
       (project "trinamic_wiring"
-        (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/176cb0b5-cab1-47ac-9998-e59b71e39393/106cbaaa-dd32-4d4d-a442-e3c42a8253b0"
-          (reference "M1") (unit 1)
-        )
         (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/176cb0b5-cab1-47ac-9998-e59b71e39393/dab15df5-b51f-4c1f-8fc9-49b45f8778bf"
           (reference "M1") (unit 1)
         )
