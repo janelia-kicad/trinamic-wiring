@@ -392,8 +392,20 @@
       "pico"
     ],
     [
+      "b07f1639-ae99-4e69-a4ff-b15d0c967980",
+      "tmc51x0-eval"
+    ],
+    [
       "8b14fa14-b5a5-4a20-b7f5-9504bcb63f71",
       "microcontroller"
+    ],
+    [
+      "106cbaaa-dd32-4d4d-a442-e3c42a8253b0",
+      "teensy40"
+    ],
+    [
+      "dab15df5-b51f-4c1f-8fc9-49b45f8778bf",
+      "pico"
     ],
     [
       "106cbaaa-dd32-4d4d-a442-e3c42a8253b0",

@@ -19,12 +19,12 @@
     (property "Sheetname" "teensy40" (at 110.49 58.9784 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "tmc51x0_tmc51x0_bob_teensy40.kicad_sch" (at 110.49 64.0846 0)
+    (property "Sheetfile" "tmc51x0_tmc51x0_eval_teensy40.kicad_sch" (at 110.49 64.0846 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
       (project "trinamic_wiring"
-        (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/176cb0b5-cab1-47ac-9998-e59b71e39393" (page "27"))
+        (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/b07f1639-ae99-4e69-a4ff-b15d0c967980" (page "20"))
       )
     )
   )
@@ -36,12 +36,12 @@
     (property "Sheetname" "pico" (at 162.56 58.9784 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "tmc51x0_tmc51x0_bob_pico.kicad_sch" (at 162.56 64.0846 0)
+    (property "Sheetfile" "tmc51x0_tmc51x0_eval_pico.kicad_sch" (at 162.56 64.0846 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
       (project "trinamic_wiring"
-        (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/176cb0b5-cab1-47ac-9998-e59b71e39393" (page "17"))
+        (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/b07f1639-ae99-4e69-a4ff-b15d0c967980" (page "21"))
       )
     )
   )

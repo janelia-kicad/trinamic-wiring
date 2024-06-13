@@ -859,7 +859,7 @@
     (pin "V" (uuid ab032cf3-cadf-4689-aa10-45e488411fc1))
     (instances
       (project "trinamic_wiring"
-        (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/176cb0b5-cab1-47ac-9998-e59b71e39393/106cbaaa-dd32-4d4d-a442-e3c42a8253b0"
+        (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/b07f1639-ae99-4e69-a4ff-b15d0c967980/106cbaaa-dd32-4d4d-a442-e3c42a8253b0"
           (reference "A1") (unit 1)
         )
       )
@@ -907,7 +907,7 @@
     (pin "2" (uuid 19032f77-dfc4-400e-a44f-895190eac1c3))
     (instances
       (project "trinamic_wiring"
-        (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/176cb0b5-cab1-47ac-9998-e59b71e39393/106cbaaa-dd32-4d4d-a442-e3c42a8253b0"
+        (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/b07f1639-ae99-4e69-a4ff-b15d0c967980/106cbaaa-dd32-4d4d-a442-e3c42a8253b0"
           (reference "ENC2") (unit 1)
         )
       )
@@ -971,7 +971,7 @@
     (pin "15" (uuid 4910cc97-e589-433b-a0b4-c3d4445529d0))
     (instances
       (project "trinamic_wiring"
-        (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/176cb0b5-cab1-47ac-9998-e59b71e39393/106cbaaa-dd32-4d4d-a442-e3c42a8253b0"
+        (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/b07f1639-ae99-4e69-a4ff-b15d0c967980/106cbaaa-dd32-4d4d-a442-e3c42a8253b0"
           (reference "BOB1") (unit 1)
         )
       )
@@ -1011,7 +1011,7 @@
     (pin "B-" (uuid a8bf6082-33fa-4495-b6db-823bfda77591))
     (instances
       (project "trinamic_wiring"
-        (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/176cb0b5-cab1-47ac-9998-e59b71e39393/106cbaaa-dd32-4d4d-a442-e3c42a8253b0"
+        (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/b07f1639-ae99-4e69-a4ff-b15d0c967980/106cbaaa-dd32-4d4d-a442-e3c42a8253b0"
           (reference "M1") (unit 1)
         )
       )
