@@ -618,8 +618,8 @@
     (uuid febfa021-4336-419d-8a2e-472bac42af7b)
   )
 
-  (text "Short R304 pads on EVAL board.\nShort X301 middle pad (CLK) to X301 rightmost pad (GND). "
-    (at 129.54 146.05 0)
+  (text "Short R304 pads on EVAL board.\nShort X301 middle pad (CLK) to X301 rightmost pad (GND)\nafter removing resistor between X301 leftmost pad and middle pad. "
+    (at 134.62 148.59 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ccbe9ebf-3c67-4abe-8ded-555aaaba7990)
   )

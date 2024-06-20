@@ -12,23 +12,6 @@
   )
 
 
-  (sheet (at 110.49 59.69) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 106cbaaa-dd32-4d4d-a442-e3c42a8253b0)
-    (property "Sheetname" "teensy40" (at 110.49 58.9784 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "tmc51x0_tmc51x0_eval_teensy40.kicad_sch" (at 110.49 64.0846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "trinamic_wiring"
-        (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/b07f1639-ae99-4e69-a4ff-b15d0c967980" (page "20"))
-      )
-    )
-  )
-
   (sheet (at 162.56 59.69) (size 12.7 3.81) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
