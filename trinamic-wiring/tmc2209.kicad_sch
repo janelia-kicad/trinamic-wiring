@@ -1,0 +1,238 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid bcf4cac7-ecbd-4a99-935e-52077ad9ccda)
+
+  (paper "A4")
+
+  (title_block
+    (title "Trinamic Wiring")
+    (date "2024-07-31")
+    (rev "0.5")
+    (company "Janelia Research Campus")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 208.28 129.54) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00672f55-5cea-4051-abd7-9136695f76d0)
+    (property "Sheetname" "bidirectional-coupled-multiple-uart" (at 208.28 128.8284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "tmc2209-bidirectional-coupled-multiple-uart.kicad_sch" (at 208.28 133.9346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "trinamic-wiring"
+        (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884" (page "12"))
+      )
+    )
+  )
+
+  (sheet (at 43.18 104.14) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 13e2a7b5-46df-44bb-8dde-5d79d190b8bf)
+    (property "Sheetname" "unidirectional" (at 43.18 103.4284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "tmc2209-unidirectional.kicad_sch" (at 43.18 108.5346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "trinamic-wiring"
+        (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 144.78 53.34) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 262bc404-9876-4460-91a4-f9d4b0d72afb)
+    (property "Sheetname" "stepper-controller" (at 144.78 52.6284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "tmc2209-stepper-controller.kicad_sch" (at 144.78 57.7346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "trinamic-wiring"
+        (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884" (page "15"))
+      )
+    )
+  )
+
+  (sheet (at 43.18 78.74) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 2a1dc514-7df6-499f-97d3-aee7548517ec)
+    (property "Sheetname" "teensy40" (at 43.18 78.0284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "tmc2209-teensy40.kicad_sch" (at 43.18 83.1346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "trinamic-wiring"
+        (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 93.98 104.14) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 5b0a2695-6b0b-4c82-b9d6-7e19fee75501)
+    (property "Sheetname" "unidirectional-multiple" (at 93.98 103.4284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "tmc2209-unidirectional-multiple.kicad_sch" (at 93.98 108.5346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "trinamic-wiring"
+        (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884" (page "8"))
+      )
+    )
+  )
+
+  (sheet (at 93.98 129.54) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 5f6f310d-167d-42a3-8815-1b623fe73dc8)
+    (property "Sheetname" "bidirectional-coupled-multiple-address" (at 93.98 128.8284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "tmc2209-bidirectional-coupled-multiple-address.kicad_sch" (at 93.98 133.9346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "trinamic-wiring"
+        (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 144.78 78.74) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 700ebcf6-97e4-406c-9a87-76fe63afd177)
+    (property "Sheetname" "uno" (at 144.78 78.0284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "tmc2209-uno.kicad_sch" (at 144.78 83.1346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "trinamic-wiring"
+        (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884" (page "10"))
+      )
+    )
+  )
+
+  (sheet (at 43.18 53.34) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 8277c47e-3fcc-48ef-9892-6d34b4c51a79)
+    (property "Sheetname" "description" (at 43.18 52.6284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "tmc2209-description.kicad_sch" (at 43.18 57.7346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "trinamic-wiring"
+        (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884" (page "13"))
+      )
+    )
+  )
+
+  (sheet (at 93.98 53.34) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 8b14fa14-b5a5-4a20-b7f5-9504bcb63f71)
+    (property "Sheetname" "microcontroller" (at 93.98 52.6284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "tmc2209-microcontroller.kicad_sch" (at 93.98 57.7346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "trinamic-wiring"
+        (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884" (page "14"))
+      )
+    )
+  )
+
+  (sheet (at 144.78 104.14) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid a2ce530e-f5b5-4e3e-9188-e4bc8f84c739)
+    (property "Sheetname" "unidirectional-multiple-address" (at 144.78 103.4284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "tmc2209-unidirectional-multiple-address.kicad_sch" (at 144.78 108.5346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "trinamic-wiring"
+        (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884" (page "9"))
+      )
+    )
+  )
+
+  (sheet (at 208.28 104.14) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid d4a56977-1958-4e49-bd54-bb12e595a31d)
+    (property "Sheetname" "unidirectional-multiple-uart" (at 208.28 103.4284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "tmc2209-unidirectional-multiple-uart.kicad_sch" (at 208.28 108.5346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "trinamic-wiring"
+        (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884" (page "11"))
+      )
+    )
+  )
+
+  (sheet (at 43.18 129.54) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid e3613d8e-f506-47d6-ad2d-b0f5798d9847)
+    (property "Sheetname" "bidirectional-coupled" (at 43.18 128.8284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "tmc2209-bidirectional-coupled.kicad_sch" (at 43.18 133.9346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "trinamic-wiring"
+        (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884" (page "7"))
+      )
+    )
+  )
+
+  (sheet (at 93.98 78.74) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid eea4dd1f-0426-4b34-8e32-825d6eb25fc5)
+    (property "Sheetname" "mega2560" (at 93.98 78.0284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "tmc2209-mega2560.kicad_sch" (at 93.98 83.1346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "trinamic-wiring"
+        (path "/e4144788-6304-493f-818e-5d881d3b7418/c8eda2b5-ab13-4033-82d9-875c9fcaf884" (page "4"))
+      )
+    )
+  )
+)

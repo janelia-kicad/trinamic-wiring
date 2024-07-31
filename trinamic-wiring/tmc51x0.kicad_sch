@@ -1,0 +1,85 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid bcf4cac7-ecbd-4a99-935e-52077ad9ccda)
+
+  (paper "A4")
+
+  (title_block
+    (title "Trinamic Wiring")
+    (date "2024-07-31")
+    (rev "0.5")
+    (company "Janelia Research Campus")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 43.18 68.58) (size 12.7 5.08) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 176cb0b5-cab1-47ac-9998-e59b71e39393)
+    (property "Sheetname" "tmc51x0-bob" (at 43.18 67.8684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "tmc51x0-bob.kicad_sch" (at 43.18 74.2446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "trinamic-wiring"
+        (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43" (page "30"))
+      )
+    )
+  )
+
+  (sheet (at 43.18 53.34) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 8277c47e-3fcc-48ef-9892-6d34b4c51a79)
+    (property "Sheetname" "description" (at 43.18 52.6284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "tmc51x0-description.kicad_sch" (at 43.18 57.7346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "trinamic-wiring"
+        (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43" (page "29"))
+      )
+    )
+  )
+
+  (sheet (at 93.98 53.34) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 8b14fa14-b5a5-4a20-b7f5-9504bcb63f71)
+    (property "Sheetname" "microcontroller" (at 93.98 52.6284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "tmc51x0-microcontroller.kicad_sch" (at 93.98 57.7346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "trinamic-wiring"
+        (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43" (page "19"))
+      )
+    )
+  )
+
+  (sheet (at 93.98 68.58) (size 12.7 5.08) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid b07f1639-ae99-4e69-a4ff-b15d0c967980)
+    (property "Sheetname" "tmc51x0-eval" (at 93.98 67.8684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "tmc51x0-eval.kicad_sch" (at 93.98 74.2446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "trinamic-wiring"
+        (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43" (page "18"))
+      )
+    )
+  )
+)

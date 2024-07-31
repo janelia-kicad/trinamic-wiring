@@ -1,0 +1,51 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 8ee2548e-d6f9-44a0-a6ae-abd12d0d8503)
+
+  (paper "A4")
+
+  (title_block
+    (title "Trinamic Wiring")
+    (date "2024-07-31")
+    (rev "0.5")
+    (company "Janelia Research Campus")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 110.49 59.69) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 106cbaaa-dd32-4d4d-a442-e3c42a8253b0)
+    (property "Sheetname" "teensy40" (at 110.49 58.9784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "tmc51x0-tmc51x0-bob-teensy40.kicad_sch" (at 110.49 64.0846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "trinamic-wiring"
+        (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/176cb0b5-cab1-47ac-9998-e59b71e39393" (page "27"))
+      )
+    )
+  )
+
+  (sheet (at 162.56 59.69) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid dab15df5-b51f-4c1f-8fc9-49b45f8778bf)
+    (property "Sheetname" "pico" (at 162.56 58.9784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "tmc51x0-tmc51x0-bob-pico.kicad_sch" (at 162.56 64.0846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "trinamic-wiring"
+        (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/176cb0b5-cab1-47ac-9998-e59b71e39393" (page "17"))
+      )
+    )
+  )
+)
