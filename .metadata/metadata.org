@@ -11,17 +11,17 @@
 
 #+NAME: project-name
 #+BEGIN_SRC text :exports none :noweb yes
-trinamic_wiring
+trinamic-wiring
 #+END_SRC
 
 #+NAME: repository-name
 #+BEGIN_SRC text :exports none :noweb yes
-trinamic_wiring
+trinamic-wiring
 #+END_SRC
 
 #+NAME: version
 #+BEGIN_SRC text :exports none :noweb yes
-0.3
+0.5
 #+END_SRC
 
 #+NAME: description

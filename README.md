@@ -1,23 +1,23 @@
-- [About](#org903ee97)
-- [Development](#org3c9a3be)
+- [About](#orgd3fe46e)
+- [Development](#org6bdb29a)
 
     <!-- This file is generated automatically from metadata -->
     <!-- File edits may be overwritten! -->
 
 
-<a id="org903ee97"></a>
+<a id="orgd3fe46e"></a>
 
 # About
 
 ```markdown
-- Project Name: trinamic_wiring
+- Project Name: trinamic-wiring
 - Description: Wiring documentation for various Trinamic devices and ICs.
-- Version: 0.3
-- Kicad Version: 7.0.10
-- Release Date: 2024-01-29
+- Version: 0.5
+- Kicad Version: 7.0.11
+- Release Date: 2024-07-31
 - Creation Date: 2022-11-02
 - License: BSD-3-Clause
-- URL: https://github.com/janelia-kicad/trinamic_wiring
+- URL: https://github.com/janelia-kicad/trinamic-wiring
 - Author: Peter Polidoro
 - Email: peter@polidoro.io
 - Copyright: 2024 Howard Hughes Medical Institute
@@ -27,7 +27,7 @@
 ```
 
 
-<a id="org3c9a3be"></a>
+<a id="org6bdb29a"></a>
 
 # Development
 
