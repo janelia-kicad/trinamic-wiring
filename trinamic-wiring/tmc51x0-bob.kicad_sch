@@ -6,7 +6,7 @@
 
   (title_block
     (title "Trinamic Wiring")
-    (date "2024-07-31")
+    (date "2024-08-01")
     (rev "0.5")
     (company "Janelia Research Campus")
   )
@@ -27,7 +27,7 @@
     )
     (instances
       (project "trinamic-wiring"
-        (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/176cb0b5-cab1-47ac-9998-e59b71e39393" (page "27"))
+        (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/ca35872a-a0db-401c-97bd-5b4a3f731cf1/abe2ac4d-e9f3-44e3-a772-2451bb376256" (page "22"))
       )
     )
   )
@@ -44,7 +44,7 @@
     )
     (instances
       (project "trinamic-wiring"
-        (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/176cb0b5-cab1-47ac-9998-e59b71e39393" (page "17"))
+        (path "/e4144788-6304-493f-818e-5d881d3b7418/a161638e-a96f-4455-865a-1d7502675f43/ca35872a-a0db-401c-97bd-5b4a3f731cf1/abe2ac4d-e9f3-44e3-a772-2451bb376256" (page "23"))
       )
     )
   )

@@ -21,7 +21,7 @@ trinamic-wiring
 
 #+NAME: version
 #+BEGIN_SRC text :exports none :noweb yes
-0.5
+0.6
 #+END_SRC
 
 #+NAME: description
@@ -296,8 +296,8 @@ kicad-edits:
 	# $(GUIX-SHELL) -- kicad
 	KICAD_CONFIG_HOME=$(KICAD_CONFIG_HOME) $(GUIX-SHELL) -E "^KICAD_CONFIG_HOME" -- kicad
 
-.PHONY: cropped
-cropped:
+.PHONY: cropped-svg
+cropped-svg:
 	# $(GUIX-SHELL) -- inkscape -D --export-overwrite --export-plain-svg documentation/schematic/*.svg
 	inkscape -D --export-overwrite --export-plain-svg documentation/schematic/*.svg
 #+END_SRC

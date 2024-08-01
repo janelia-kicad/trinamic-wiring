@@ -388,32 +388,40 @@
       "TMC51X0"
     ],
     [
-      "dab15df5-b51f-4c1f-8fc9-49b45f8778bf",
-      "pico"
+      "a4ac6707-60d1-4489-9732-1d0914f88b38",
+      "tmc51x0-eval"
     ],
     [
-      "b07f1639-ae99-4e69-a4ff-b15d0c967980",
-      "tmc51x0-eval"
+      "dab15df5-b51f-4c1f-8fc9-49b45f8778bf",
+      "pico"
     ],
     [
       "8b14fa14-b5a5-4a20-b7f5-9504bcb63f71",
       "microcontroller"
     ],
     [
-      "dab15df5-b51f-4c1f-8fc9-49b45f8778bf",
-      "pico"
+      "ad63a696-6c53-47a9-b2a1-00bf154fb17b",
+      "tmc51x0-uart"
+    ],
+    [
+      "abe2ac4d-e9f3-44e3-a772-2451bb376256",
+      "tmc51x0-bob"
     ],
     [
       "106cbaaa-dd32-4d4d-a442-e3c42a8253b0",
       "teensy40"
     ],
     [
-      "8277c47e-3fcc-48ef-9892-6d34b4c51a79",
-      "description"
+      "dab15df5-b51f-4c1f-8fc9-49b45f8778bf",
+      "pico"
     ],
     [
-      "176cb0b5-cab1-47ac-9998-e59b71e39393",
-      "tmc51x0-bob"
+      "ca35872a-a0db-401c-97bd-5b4a3f731cf1",
+      "tmc51x0-spi"
+    ],
+    [
+      "8277c47e-3fcc-48ef-9892-6d34b4c51a79",
+      "description"
     ]
   ],
   "text_variables": {}

@@ -1,0 +1,17 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 1a8104f1-6399-485f-ba7d-bfd4cf54bf6c)
+
+  (paper "A4")
+
+  (title_block
+    (title "Trinamic Wiring")
+    (date "2024-08-01")
+    (rev "0.5")
+    (company "Janelia Research Campus")
+  )
+
+  (lib_symbols
+  )
+
+)

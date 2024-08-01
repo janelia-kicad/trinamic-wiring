@@ -30,7 +30,7 @@ kicad-edits:
 	# $(GUIX-SHELL) -- kicad
 	KICAD_CONFIG_HOME=$(KICAD_CONFIG_HOME) $(GUIX-SHELL) -E "^KICAD_CONFIG_HOME" -- kicad
 
-.PHONY: cropped
-cropped:
+.PHONY: cropped-svg
+cropped-svg:
 	# $(GUIX-SHELL) -- inkscape -D --export-overwrite --export-plain-svg documentation/schematic/*.svg
 	inkscape -D --export-overwrite --export-plain-svg documentation/schematic/*.svg

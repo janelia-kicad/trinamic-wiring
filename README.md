@@ -1,20 +1,20 @@
-- [About](#orgd3fe46e)
-- [Development](#org6bdb29a)
+- [About](#orgb646540)
+- [Development](#org7d105b9)
 
     <!-- This file is generated automatically from metadata -->
     <!-- File edits may be overwritten! -->
 
 
-<a id="orgd3fe46e"></a>
+<a id="orgb646540"></a>
 
 # About
 
 ```markdown
 - Project Name: trinamic-wiring
 - Description: Wiring documentation for various Trinamic devices and ICs.
-- Version: 0.5
+- Version: 0.6
 - Kicad Version: 7.0.11
-- Release Date: 2024-07-31
+- Release Date: 2024-08-01
 - Creation Date: 2022-11-02
 - License: BSD-3-Clause
 - URL: https://github.com/janelia-kicad/trinamic-wiring
@@ -27,7 +27,7 @@
 ```
 
 
-<a id="org6bdb29a"></a>
+<a id="org7d105b9"></a>
 
 # Development
 
